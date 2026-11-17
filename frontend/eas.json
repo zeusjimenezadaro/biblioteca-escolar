@@ -13,6 +13,12 @@
         "EXPO_PUBLIC_API_URL": "https://biblioteca-escolar-api.vercel.app",
         "ORG_GRADLE_PROJECT_reactNativeArchitectures": "arm64-v8a"
       }
+    },
+    "emulador": {
+      "extends": "preview",
+      "env": {
+        "ORG_GRADLE_PROJECT_reactNativeArchitectures": "x86_64"
+      }
     }
   }
 }
