@@ -29,6 +29,17 @@
       "expo-secure-store",
       "expo-web-browser",
       "expo-font"
-    ]
+    ],
+    "extra": {
+      "router": {
+        "asyncRoutes": {
+          "web": true
+        }
+      },
+      "eas": {
+        "projectId": "75f39400-8d7a-4791-86d1-b197ab27cb23"
+      }
+    },
+    "owner": "zeusjimenez"
   }
 }
