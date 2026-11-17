@@ -1,0 +1,22 @@
+# Dependencias (se reinstalan con npm ci)
+node_modules/
+
+# Configuración privada: contraseñas y claves. Solo se suben los .env.example.
+.env
+.env.*
+!.env.example
+
+# Archivos generados o propios de cada máquina
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+.vercel/
+*.log
+*.tsbuildinfo
+.DS_Store
+.claude/
+
+# Carpetas nativas generadas por Expo (no se editan a mano)
+/frontend/android/
+/frontend/ios/
