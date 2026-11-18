@@ -11,6 +11,7 @@ App móvil en **React Native (Expo + TypeScript)** con backend **Node.js + Expre
 | 📘 Documentación de la API | [`backend/README.md`](backend/README.md) |
 | 🧭 Manual de usuario | [`docs/MANUAL_DE_USUARIO.md`](docs/MANUAL_DE_USUARIO.md) |
 | 🛠️ Guía de instalación | [`docs/GUIA_DE_INSTALACION.md`](docs/GUIA_DE_INSTALACION.md) |
+| 🎬 Video de demostración | [Alumno](video/1-alumno.mp4) · [Bibliotecario](video/2-bibliotecario.mp4) · [Administrador](video/3-administrador.mp4) |
 
 ## Cuentas de prueba
 
@@ -80,7 +81,8 @@ La app muestra pantallas y botones distintos según el rol, y la API protege cad
 │       ├── types/           Tipos de TypeScript
 │       └── utils/           Validaciones y permisos por rol
 ├── docs/                    Manual de usuario y guía de instalación
-└── apk/                     APK para Android
+├── apk/                     APK para Android
+└── video/                   Video de demostración (una parte por rol)
 ```
 
 ## Instalación rápida
